@@ -1,9 +1,9 @@
 /*our works and team*/
 
-.works {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+// .works {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+// }
 
 .works__text {
   font-weight: 700;
@@ -12,25 +12,25 @@
   text-align: center;
   margin: 0;
   padding-top: 0;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 }
 
 .works__block {
   margin: 0;
-  display: flex;
-  align-content: center;
+  // display: flex;
+  // align-content: center;
 }
 
-.works__card {
-  margin-right: 30px;
-  padding-bottom: 94px;
-  width: 370px;
-  height: 294px;
+// .works__card {
+//   margin-right: 30px;
+//   padding-bottom: 94px;
+//   width: 370px;
+//   height: 294px;
 
-  &:nth-child(3n) {
-    margin-right: 0;
-  }
-}
+//   &:nth-child(3n) {
+//     margin-right: 0;
+//   }
+// }
 
 .works__thumb {
   position: relative;
@@ -54,6 +54,6 @@
   color: rgba(255, 255, 255, 1);
   margin: 0;
   padding: 27px 0;
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
 }

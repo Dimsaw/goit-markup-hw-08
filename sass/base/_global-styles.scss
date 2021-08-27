@@ -3,9 +3,25 @@ html {
 }
 
 body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: $primary-text-color;
-  margin: 0 auto;
+  margin: 0;
   background-position: center;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  @media screen and (min-width: 480px) {
+    max-width: 450px;
+  }
+  @media screen and (min-width: 767px) {
+    max-width: 767px;
+  }
+  @media screen and (min-width: 1199px) {
+    max-width: 1200px;
+  }
 }
 
 *,

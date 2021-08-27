@@ -2,8 +2,8 @@
 
 .team {
   background-color: $additional-background-color;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  // padding-top: 94px;
+  // padding-bottom: 94px;
 }
 .team__container {
   background-color: $additional-background-color;
@@ -19,33 +19,32 @@
   margin-bottom: 50px;
 }
 
-.team__item {
-  display: flex;
-}
+// .team__item {
+//   display: flex;
+// }
 
 .team__card {
-  margin-right: 30px;
   background-color: $white;
   width: 270px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
-  &:nth-child(4n) {
-    margin-right: 0;
-  }
+  // &:nth-child(4n) {
+  //   margin-right: 0;
+  // }
 }
 
-.team__info {
-  padding: 30px 32px 30px 32px;
-}
+// .team__info {
+//   padding: 30px 32px 30px 32px;
+// }
 
 .team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   margin: 0;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
   text-align: center;
 }
 
@@ -59,15 +58,16 @@
 
 .social {
   display: flex;
-  margin-top: 16px;
+  justify-content: center;
+  // margin-top: 16px;
   background-color: $white;
 }
 
-.social__info {
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
-}
+// .social__info {
+//   &:not(:last-child) {
+//     margin-right: 10px;
+//   }
+// }
 
 .link {
   width: 44px;
