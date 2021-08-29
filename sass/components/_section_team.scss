@@ -34,6 +34,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   @media screen and (min-width: 1200px) {
@@ -72,9 +73,14 @@
   // }
 }
 
-// .team__info {
-//   padding: 30px 32px 30px 32px;
-// }
+.team__info {
+  @media screen and (max-width: 1199px) {
+    padding: 30px 0 24px 0;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 30px 0 30px 0;
+  }
+}
 
 // .team__image {
 //   min-width: 450px;
