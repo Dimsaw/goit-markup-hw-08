@@ -7,7 +7,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/Headermob.jpg);
+    url(./images/Headermob.jpg);
   background-size: 480px 400px;
   margin: 0 auto;
   text-align: center;
@@ -24,7 +24,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/Headerdesk.jpg);
+      url(./images/Headerdesk.jpg);
   }
   @media screen and (min-resolution: 2dppx) {
     .order {
@@ -45,7 +45,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/images/Headertab.jpg);
+      url(./images/Headertab.jpg);
   }
   @media screen and (min-resolution: 2dppx) {
     .order {
@@ -54,7 +54,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(/images/Headertab@2x.jpg);
+        url(./images/Headertab@2x.jpg);
     }
   }
 }
