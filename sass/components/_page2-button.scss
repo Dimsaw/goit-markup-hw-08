@@ -1,26 +1,58 @@
-// .button {
-//   display: inline;
-//   display: flex;
-//   justify-content: center;
-//   margin-bottom: 50px;
-// }
+.button {
+  display: inline;
+  display: flex;
 
-// .button__search:not(:last-child) {
-//   margin-right: 8px;
-// }
+  @media screen and (max-width: 767px) {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+}
+
+.button__search:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button__search:not(:nth-child(n + 4)) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 15px;
+  }
+}
 
 .button__text {
   color: $primary-text-color;
   background-color: #f5f4fa;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   border: 1px solid transparent;
-  // padding: 6px 22px;
+  padding: 6px 22px;
   border-radius: 4px;
   text-align: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  display: flex;
 
   &:hover,
   &:focus {
