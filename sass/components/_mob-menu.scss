@@ -31,6 +31,10 @@
   &--current {
     color: $accent-color;
   }
+
+  @media screen and (max-width: 350px) {
+    font-size: 35px;
+  }
 }
 
 .mobile-menu__contact {
@@ -61,6 +65,10 @@
   color: $accent-color;
 
   margin: 15px;
+
+  @media screen and (max-width: 425px) {
+    font-size: 11px;
+  }
 }
 
 .mobile-menu__teg {
@@ -85,4 +93,9 @@
   font-size: 34px;
   line-height: 1.17;
   color: $accent-color;
+  @media screen and (max-width: 350px) {
+    font-size: 24px;
+    line-height: 1.17;
+    color: $accent-color;
+  }
 }

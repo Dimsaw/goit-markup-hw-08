@@ -481,9 +481,9 @@ header {
   outline: none;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 479px) {
   .modal {
-    width: 100%;
+    width: 100vw;
     height: 609px;
   }
 }
@@ -631,6 +631,8 @@ header {
           justify-content: center;
   margin-top: 18px;
   margin-bottom: 32px;
+  padding-left: 7px;
+  padding-right: 7px;
   font-size: 14px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -1220,6 +1222,12 @@ header {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .footer__info {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer__logo {
     display: -webkit-box;
@@ -1247,7 +1255,6 @@ header {
 
 @media screen and (max-width: 767px) {
   .footer__contact {
-    text-align: center;
     margin-bottom: 60px;
   }
 }
@@ -1511,6 +1518,14 @@ header {
 
 .product__link {
   display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1561,6 +1576,16 @@ header {
 }
 
 .product__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -1578,6 +1603,7 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   margin: 0;
   margin-bottom: 4px;
 }
@@ -1699,6 +1725,12 @@ header {
   color: #2196f3;
 }
 
+@media screen and (max-width: 350px) {
+  .mobile-menu__text {
+    font-size: 35px;
+  }
+}
+
 .mobile-menu__contact {
   margin-bottom: 64px;
 }
@@ -1731,6 +1763,12 @@ header {
   margin: 15px;
 }
 
+@media screen and (max-width: 425px) {
+  .mobile-menu__link {
+    font-size: 11px;
+  }
+}
+
 .mobile-menu__teg {
   font-family: Roboto;
   font-style: normal;
@@ -1757,5 +1795,13 @@ header {
   font-size: 34px;
   line-height: 1.17;
   color: #2196f3;
+}
+
+@media screen and (max-width: 350px) {
+  .mobile-menu__teg--bigger {
+    font-size: 24px;
+    line-height: 1.17;
+    color: #2196f3;
+  }
 }
 /*# sourceMappingURL=main.css.map */
